@@ -25,15 +25,3 @@ var funkyFunction = function() {
 var theFunk = funkyFunction()
 theFunk()
 
-
-  describe('funkyFunction()', function() {
-    it('returns a function', function() {
-      expect(typeof window.funkyFunction()).toEqual('function')
-    })
-  })
-
-  describe('theFunk', function() {
-    it('is "FUNKY!"', function() {
-      expect(window.theFunk).toEqual('FUNKY!')
-    })
-  })
